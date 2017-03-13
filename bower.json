@@ -1,0 +1,17 @@
+{
+  "name": "ProyectoInicial",
+  "description": "Descripcion Bower aqui",
+  "main": "",
+  "authors": [
+    "Ruben Molina"
+  ],
+  "license": "MIT",
+  "homepage": "http://RubenMolina.com",
+  "private": true,
+  "dependencies": {
+    "angular": "angularjs#^1.6.3",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "angular-route": "^1.6.3"
+  }
+}
