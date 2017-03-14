@@ -9,13 +9,15 @@
 
 Esta es la pagina CLASIFICACIONES
 
-<div ng-init="loadClasificacion()">
+<div class="jumbotron text-center">
+    <h1><span class="fa fa-cog fa-spin"></span> Clasificación</h1>
+    <div ng-init="loadClasificacion()">
 
-    <p ng-repeat="posicion in clasificacion">
-      {{posicion.name}}  - {{posicion.puntos}}
-    </p>
+        <p ng-repeat="posicion in clasificacion">
+          {{posicion.name}}  - {{posicion.puntos}}
+        </p>
 
+    </div>
 </div>
-
 
 FIN CLASSIF

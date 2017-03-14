@@ -5,7 +5,7 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
     $routeProvider.when('/clasificacion', {templateUrl: 'partials/clasificacion.html', controller:'clasificacionCtrl'});
     $routeProvider.when('/home', {templateUrl: 'partials/home.html'});
    // $routeProvider.when('/principal', {templateUrl: 'principal.html'});
-    $routeProvider.otherwise({redirectTo: '/home'});
+    $routeProvider.otherwise({redirectTo: '/'});
 
     $locationProvider.html5Mode({enabled: true, requireBase: false});
 
