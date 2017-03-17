@@ -4,9 +4,21 @@
     <title>Node Authentication</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
-    <style>
-        body 		{ padding-top:80px; }
+    <link  rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style type="text/css">
+
+        body
+        {
+            padding-top:10px;
+
+        }
+
+
     </style>
+
+
+
     <script src="libs/angular/angular.js"></script>
     <script src="libs/angular-route/angular-route.js"></script>
     <script src="js/main.js"></script>
@@ -14,7 +26,22 @@
 </head>
 
 
+
 <body>
+
+<div id="barra">
+
+    <ul>
+        <a ng-href="/profile" class="btn btn-warning"><span class="fa fa-user"></span>Profile</a>
+        <a ng-href="/clasificacion" class="btn btn-warning"><span class="fa fa-user"></span>Classif</a>
+        <a ng-href="/home" class="btn btn-warning"><span class="fa fa-user"></span>Home</a>
+
+    </ul>
+
+
+</div>
+
+
 <div class="container">
 
     <div class="jumbotron text-center">
